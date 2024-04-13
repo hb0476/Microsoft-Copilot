@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Arena</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        /* ... other styles ... */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports Arena</h1>
+        <p>Welcome to our state-of-the-art sports facility!</p>
+    </header>
+
+    <!-- Buttons, images, and other content -->
+    <!-- Add your buttons, images, and other elements here -->
+
+    <section id="sports-list">
+        <h2>Sports Available</h2>
+        <ul>
+            <li>
+                <strong>Tennis</strong>
+                <span>Time Slots: 9:00 AM - 10:00 PM</span>
+                <span>Price: $20/hour</span>
+            </li>
+            <!-- Add more sports and details -->
+        </ul>
+    </section>
+
+    <section id="booking-form">
+        <h2>Book Your Slot</h2>
+        <form id="booking">
+            <label for="sport">Select Sport:</label>
+            <select id="sport" name="sport">
+                <option value="tennis">Tennis</option>
+                <!-- Add more sport options -->
+            </select>
+            <label for="time-slot">Select Time Slot:</label>
+            <input type="time" id="time-slot" name="time-slot">
+            <!-- Add other form fields (e.g., quantity, payment) -->
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="receipt">
+        <h2>Booking Receipt</h2>
+        <!-- Display receipt details dynamically using JavaScript -->
+        <p>Total Cost: <span id="total-cost">$0</span></p>
+    </section>
+
+    <footer>
+        <p>Opening Hours: Mon-Sat, 8:00 AM - 11:00 PM</p>
+        <p>Location: 123 Sports Avenue, City</p>
+        <p>Reviews: <a href="#reviews">Read Reviews</a></p>
+    </footer>
+
+    <script>
+        // Add your JavaScript code here
+        // Calculate total cost, handle form submission, etc.
+        // Example: document.getElementById('total-cost').textContent = '$50';
+    </script>
+</body>
+</html>
